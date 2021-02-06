@@ -14,8 +14,8 @@
 }
 
 .App-header {
-  background-color: green;
-  min-height: 20vh;
+  background-color: white;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +35,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.image-item {
+  width: calc(10vw + 100px);
+}
+/* .image-row {
+  width: calc(10vw + 100px);
+} */
+
+.image-container {
+  width: calc(10vw + 100px);
+  padding: 1vh;
+}
+
+.image-row-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 80vh;
+  padding: 1vh;
 }
